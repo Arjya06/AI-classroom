@@ -1,0 +1,10 @@
+{
+  "name": "AI Classroom Engagement Analytics",
+  "description": "Computer-vision classroom engagement analytics platform with MediaPipe facial landmark attention indicators, attendance tracking, session analytics, and Spring Boot + MySQL architecture.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

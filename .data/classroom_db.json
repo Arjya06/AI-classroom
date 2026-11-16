@@ -1,0 +1,515 @@
+{
+  "nextId": 104,
+  "teachers": [
+    {
+      "id": 1,
+      "name": "Dr. Ananya Sharma",
+      "email": "ananya.sharma@university.edu",
+      "passwordHash": "$2b$10$HH.iEkfHSVSvG7HDbTXql.1AOSIAhbwCSDSYuTD8ULUwc/vmL/rKm",
+      "role": "TEACHER",
+      "department": "Computer Science & Engineering",
+      "createdAt": "2026-10-13T20:24:08.062Z"
+    }
+  ],
+  "settings": [
+    {
+      "teacherId": 1,
+      "attentionWeight": 50,
+      "presenceWeight": 30,
+      "participationWeight": 20,
+      "includeParticipation": true,
+      "highThreshold": 75,
+      "moderateThreshold": 50,
+      "samplingInterval": 3,
+      "preferredCameraLabel": "Default Classroom Camera",
+      "retentionDays": 90
+    }
+  ],
+  "classrooms": [
+    {
+      "id": 1,
+      "classroomName": "CS-301 Data Structures & Algorithms [DEMO]",
+      "subject": "Data Structures & Algorithms",
+      "section": "CSE-A",
+      "academicYear": "2026-27",
+      "description": "Demonstration classroom with historical simulated session metrics for academic review.",
+      "isDemo": true,
+      "teacherId": 1,
+      "createdAt": "2026-10-23T20:24:08.062Z"
+    },
+    {
+      "id": 2,
+      "classroomName": "CS-402 Machine Learning Foundations [DEMO]",
+      "subject": "Machine Learning",
+      "section": "CSE-B",
+      "academicYear": "2026-27",
+      "description": "Upper-division seminar classroom used for simulated engagement trend comparison.",
+      "isDemo": true,
+      "teacherId": 1,
+      "createdAt": "2026-10-28T20:24:08.062Z"
+    }
+  ],
+  "students": [
+    {
+      "id": 1,
+      "studentName": "Aarav Kulkarni",
+      "email": "aarav.k@student.edu",
+      "rollNumber": "23CSE001",
+      "classroomId": 1,
+      "enrollmentDate": "2026-08-01",
+      "isDemo": true,
+      "createdAt": "2026-10-23T20:24:08.062Z"
+    },
+    {
+      "id": 2,
+      "studentName": "Diya Menon",
+      "email": "diya.m@student.edu",
+      "rollNumber": "23CSE002",
+      "classroomId": 1,
+      "enrollmentDate": "2026-08-01",
+      "isDemo": true,
+      "createdAt": "2026-10-23T20:24:08.062Z"
+    },
+    {
+      "id": 3,
+      "studentName": "Rohan Deshmukh",
+      "email": "rohan.d@student.edu",
+      "rollNumber": "23CSE003",
+      "classroomId": 1,
+      "enrollmentDate": "2026-08-01",
+      "isDemo": true,
+      "createdAt": "2026-10-23T20:24:08.062Z"
+    },
+    {
+      "id": 4,
+      "studentName": "Meera Nair",
+      "email": "meera.n@student.edu",
+      "rollNumber": "23CSE004",
+      "classroomId": 1,
+      "enrollmentDate": "2026-08-01",
+      "isDemo": true,
+      "createdAt": "2026-10-23T20:24:08.062Z"
+    },
+    {
+      "id": 5,
+      "studentName": "Kabir Verma",
+      "email": "kabir.v@student.edu",
+      "rollNumber": "23CSE005",
+      "classroomId": 1,
+      "enrollmentDate": "2026-08-01",
+      "isDemo": true,
+      "createdAt": "2026-10-23T20:24:08.062Z"
+    },
+    {
+      "id": 6,
+      "studentName": "Sanya Iyer",
+      "email": "sanya.i@student.edu",
+      "rollNumber": "23CSE006",
+      "classroomId": 1,
+      "enrollmentDate": "2026-08-01",
+      "isDemo": true,
+      "createdAt": "2026-10-23T20:24:08.062Z"
+    },
+    {
+      "id": 7,
+      "studentName": "Vikram Joshi",
+      "email": "vikram.j@student.edu",
+      "rollNumber": "22CSE101",
+      "classroomId": 2,
+      "enrollmentDate": "2026-08-01",
+      "isDemo": true,
+      "createdAt": "2026-10-28T20:24:08.062Z"
+    },
+    {
+      "id": 8,
+      "studentName": "Priya Kapoor",
+      "email": "priya.k@student.edu",
+      "rollNumber": "22CSE102",
+      "classroomId": 2,
+      "enrollmentDate": "2026-08-01",
+      "isDemo": true,
+      "createdAt": "2026-10-28T20:24:08.062Z"
+    },
+    {
+      "id": 9,
+      "studentName": "Ishaan Gupta",
+      "email": "ishaan.g@student.edu",
+      "rollNumber": "22CSE103",
+      "classroomId": 2,
+      "enrollmentDate": "2026-08-01",
+      "isDemo": true,
+      "createdAt": "2026-10-28T20:24:08.062Z"
+    },
+    {
+      "id": 10,
+      "studentName": "Neha Chatterjee",
+      "email": "neha.c@student.edu",
+      "rollNumber": "22CSE104",
+      "classroomId": 2,
+      "enrollmentDate": "2026-08-01",
+      "isDemo": true,
+      "createdAt": "2026-10-28T20:24:08.062Z"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionTitle": "Graph Traversal & BFS/DFS [DEMO]",
+      "classroomId": 1,
+      "teacherId": 1,
+      "startTime": "2026-11-06T20:24:08.062Z",
+      "endTime": "2026-11-06T20:24:08.062Z",
+      "duration": 2700,
+      "averageEngagement": 72.7,
+      "attendancePercentage": 83.3,
+      "status": "COMPLETED",
+      "mode": "DEMO",
+      "isDemo": true
+    },
+    {
+      "id": 2,
+      "sessionTitle": "Dynamic Programming Memoization [DEMO]",
+      "classroomId": 1,
+      "teacherId": 1,
+      "startTime": "2026-11-09T20:24:08.062Z",
+      "endTime": "2026-11-09T20:24:08.062Z",
+      "duration": 3000,
+      "averageEngagement": 64.4,
+      "attendancePercentage": 83.3,
+      "status": "COMPLETED",
+      "mode": "DEMO",
+      "isDemo": true
+    },
+    {
+      "id": 3,
+      "sessionTitle": "Linear Regression & Gradient Descent [DEMO]",
+      "classroomId": 2,
+      "teacherId": 1,
+      "startTime": "2026-11-10T20:24:08.062Z",
+      "endTime": "2026-11-10T20:24:08.062Z",
+      "duration": 2400,
+      "averageEngagement": 81.7,
+      "attendancePercentage": 100,
+      "status": "COMPLETED",
+      "mode": "DEMO",
+      "isDemo": true
+    }
+  ],
+  "engagementRecords": [
+    {
+      "id": 1,
+      "sessionId": 1,
+      "studentId": 1,
+      "timestamp": "2026-11-06T20:24:08.062Z",
+      "facePresenceScore": 94,
+      "attentionOrientationScore": 86,
+      "participationScore": 85,
+      "finalEngagementScore": 88.2,
+      "detectedFacesCount": 1,
+      "dataQualityStatus": "SIMULATED_DEMO"
+    },
+    {
+      "id": 2,
+      "sessionId": 1,
+      "studentId": 2,
+      "timestamp": "2026-11-06T20:24:08.062Z",
+      "facePresenceScore": 96,
+      "attentionOrientationScore": 88,
+      "participationScore": 90,
+      "finalEngagementScore": 90.8,
+      "detectedFacesCount": 1,
+      "dataQualityStatus": "SIMULATED_DEMO"
+    },
+    {
+      "id": 3,
+      "sessionId": 1,
+      "studentId": 3,
+      "timestamp": "2026-11-06T20:24:08.062Z",
+      "facePresenceScore": 62,
+      "attentionOrientationScore": 44,
+      "participationScore": null,
+      "finalEngagementScore": 50.8,
+      "detectedFacesCount": 1,
+      "dataQualityStatus": "SIMULATED_DEMO"
+    },
+    {
+      "id": 4,
+      "sessionId": 1,
+      "studentId": 4,
+      "timestamp": "2026-11-06T20:24:08.062Z",
+      "facePresenceScore": 85,
+      "attentionOrientationScore": 76,
+      "participationScore": 80,
+      "finalEngagementScore": 79.5,
+      "detectedFacesCount": 1,
+      "dataQualityStatus": "SIMULATED_DEMO"
+    },
+    {
+      "id": 5,
+      "sessionId": 1,
+      "studentId": 5,
+      "timestamp": "2026-11-06T20:24:08.062Z",
+      "facePresenceScore": 54,
+      "attentionOrientationScore": 38,
+      "participationScore": null,
+      "finalEngagementScore": 44,
+      "detectedFacesCount": 1,
+      "dataQualityStatus": "SIMULATED_DEMO"
+    },
+    {
+      "id": 6,
+      "sessionId": 1,
+      "studentId": 6,
+      "timestamp": "2026-11-06T20:24:08.062Z",
+      "facePresenceScore": 90,
+      "attentionOrientationScore": 82,
+      "participationScore": 75,
+      "finalEngagementScore": 83,
+      "detectedFacesCount": 1,
+      "dataQualityStatus": "SIMULATED_DEMO"
+    },
+    {
+      "id": 7,
+      "sessionId": 2,
+      "studentId": 1,
+      "timestamp": "2026-11-09T20:24:08.062Z",
+      "facePresenceScore": 90,
+      "attentionOrientationScore": 82,
+      "participationScore": 85,
+      "finalEngagementScore": 85,
+      "detectedFacesCount": 1,
+      "dataQualityStatus": "SIMULATED_DEMO"
+    },
+    {
+      "id": 8,
+      "sessionId": 2,
+      "studentId": 2,
+      "timestamp": "2026-11-09T20:24:08.062Z",
+      "facePresenceScore": 92,
+      "attentionOrientationScore": 84,
+      "participationScore": 80,
+      "finalEngagementScore": 85.6,
+      "detectedFacesCount": 1,
+      "dataQualityStatus": "SIMULATED_DEMO"
+    },
+    {
+      "id": 9,
+      "sessionId": 2,
+      "studentId": 3,
+      "timestamp": "2026-11-09T20:24:08.062Z",
+      "facePresenceScore": 55,
+      "attentionOrientationScore": 40,
+      "participationScore": null,
+      "finalEngagementScore": 45.6,
+      "detectedFacesCount": 1,
+      "dataQualityStatus": "SIMULATED_DEMO"
+    },
+    {
+      "id": 10,
+      "sessionId": 2,
+      "studentId": 5,
+      "timestamp": "2026-11-09T20:24:08.062Z",
+      "facePresenceScore": 50,
+      "attentionOrientationScore": 36,
+      "participationScore": null,
+      "finalEngagementScore": 41.3,
+      "detectedFacesCount": 1,
+      "dataQualityStatus": "SIMULATED_DEMO"
+    },
+    {
+      "id": 11,
+      "sessionId": 3,
+      "studentId": 7,
+      "timestamp": "2026-11-10T20:24:08.062Z",
+      "facePresenceScore": 92,
+      "attentionOrientationScore": 85,
+      "participationScore": 88,
+      "finalEngagementScore": 87.7,
+      "detectedFacesCount": 1,
+      "dataQualityStatus": "SIMULATED_DEMO"
+    },
+    {
+      "id": 12,
+      "sessionId": 3,
+      "studentId": 8,
+      "timestamp": "2026-11-10T20:24:08.062Z",
+      "facePresenceScore": 88,
+      "attentionOrientationScore": 80,
+      "participationScore": 75,
+      "finalEngagementScore": 81.4,
+      "detectedFacesCount": 1,
+      "dataQualityStatus": "SIMULATED_DEMO"
+    },
+    {
+      "id": 13,
+      "sessionId": 3,
+      "studentId": 9,
+      "timestamp": "2026-11-10T20:24:08.062Z",
+      "facePresenceScore": 80,
+      "attentionOrientationScore": 74,
+      "participationScore": null,
+      "finalEngagementScore": 76.3,
+      "detectedFacesCount": 1,
+      "dataQualityStatus": "SIMULATED_DEMO"
+    },
+    {
+      "id": 14,
+      "sessionId": 3,
+      "studentId": 10,
+      "timestamp": "2026-11-10T20:24:08.062Z",
+      "facePresenceScore": 86,
+      "attentionOrientationScore": 78,
+      "participationScore": 82,
+      "finalEngagementScore": 81.2,
+      "detectedFacesCount": 1,
+      "dataQualityStatus": "SIMULATED_DEMO"
+    }
+  ],
+  "attendance": [
+    {
+      "id": 1,
+      "studentId": 1,
+      "classroomId": 1,
+      "date": "2026-11-12",
+      "status": "PRESENT",
+      "isDemo": true,
+      "updatedAt": "2026-11-12T20:24:08.062Z"
+    },
+    {
+      "id": 2,
+      "studentId": 2,
+      "classroomId": 1,
+      "date": "2026-11-12",
+      "status": "PRESENT",
+      "isDemo": true,
+      "updatedAt": "2026-11-12T20:24:08.062Z"
+    },
+    {
+      "id": 3,
+      "studentId": 3,
+      "classroomId": 1,
+      "date": "2026-11-12",
+      "status": "LATE",
+      "isDemo": true,
+      "updatedAt": "2026-11-12T20:24:08.062Z"
+    },
+    {
+      "id": 4,
+      "studentId": 4,
+      "classroomId": 1,
+      "date": "2026-11-12",
+      "status": "PRESENT",
+      "isDemo": true,
+      "updatedAt": "2026-11-12T20:24:08.062Z"
+    },
+    {
+      "id": 5,
+      "studentId": 5,
+      "classroomId": 1,
+      "date": "2026-11-12",
+      "status": "ABSENT",
+      "isDemo": true,
+      "updatedAt": "2026-11-12T20:24:08.062Z"
+    },
+    {
+      "id": 6,
+      "studentId": 6,
+      "classroomId": 1,
+      "date": "2026-11-12",
+      "status": "PRESENT",
+      "isDemo": true,
+      "updatedAt": "2026-11-12T20:24:08.062Z"
+    },
+    {
+      "id": 7,
+      "studentId": 7,
+      "classroomId": 2,
+      "date": "2026-11-12",
+      "status": "PRESENT",
+      "isDemo": true,
+      "updatedAt": "2026-11-12T20:24:08.062Z"
+    },
+    {
+      "id": 8,
+      "studentId": 8,
+      "classroomId": 2,
+      "date": "2026-11-12",
+      "status": "PRESENT",
+      "isDemo": true,
+      "updatedAt": "2026-11-12T20:24:08.062Z"
+    },
+    {
+      "id": 9,
+      "studentId": 9,
+      "classroomId": 2,
+      "date": "2026-11-12",
+      "status": "PRESENT",
+      "isDemo": true,
+      "updatedAt": "2026-11-12T20:24:08.062Z"
+    },
+    {
+      "id": 10,
+      "studentId": 10,
+      "classroomId": 2,
+      "date": "2026-11-12",
+      "status": "LATE",
+      "isDemo": true,
+      "updatedAt": "2026-11-12T20:24:08.062Z"
+    },
+    {
+      "id": 11,
+      "studentId": 1,
+      "classroomId": 1,
+      "date": "2026-11-11",
+      "status": "PRESENT",
+      "isDemo": true,
+      "updatedAt": "2026-11-11T20:24:08.062Z"
+    },
+    {
+      "id": 12,
+      "studentId": 2,
+      "classroomId": 1,
+      "date": "2026-11-11",
+      "status": "PRESENT",
+      "isDemo": true,
+      "updatedAt": "2026-11-11T20:24:08.062Z"
+    },
+    {
+      "id": 13,
+      "studentId": 3,
+      "classroomId": 1,
+      "date": "2026-11-11",
+      "status": "ABSENT",
+      "isDemo": true,
+      "updatedAt": "2026-11-11T20:24:08.062Z"
+    },
+    {
+      "id": 14,
+      "studentId": 4,
+      "classroomId": 1,
+      "date": "2026-11-11",
+      "status": "PRESENT",
+      "isDemo": true,
+      "updatedAt": "2026-11-11T20:24:08.062Z"
+    },
+    {
+      "id": 15,
+      "studentId": 5,
+      "classroomId": 1,
+      "date": "2026-11-11",
+      "status": "ABSENT",
+      "isDemo": true,
+      "updatedAt": "2026-11-11T20:24:08.062Z"
+    },
+    {
+      "id": 16,
+      "studentId": 6,
+      "classroomId": 1,
+      "date": "2026-11-11",
+      "status": "PRESENT",
+      "isDemo": true,
+      "updatedAt": "2026-11-11T20:24:08.062Z"
+    }
+  ],
+  "participationEvents": []
+}
